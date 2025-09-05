@@ -182,3 +182,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thohihi312-coder/ldt-hub/refs/heads/main/main.lua.txt"))()
   end
   })
+  
+  AddButton(Tab3o, {
+     Name = "hoho Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7f68a443329f4a85253328ddcf80838c.lua"))()
+  end
+  })
