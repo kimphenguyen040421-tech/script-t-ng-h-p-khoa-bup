@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Script tổng hợp khoa bup",
+         Title = "khoa bup hub",
          Animation = "khoa bup ngu bú cu"
          },
         Key = {
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=103801407334591",
+       Image = "http://www.roblox.com/asset/?id=83190276951914",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,71 +30,155 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Blox Fruits = MakeTab({Name = " BloxFruit nokey"})
-     
+     local Tab1o = MakeTab({Name = "Script Blox Fruits"})
+     local Tab2o = MakeTab({Name = "Grow a Garden"})
+     local Tab3o = MakeTab({Name = "99 day"})
 ------- BUTTON
     
-    AddButton(Blox Fruits, {
-     Name = "quantum hub",
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
-  AddButton(Blox Fruits, {
-     Name = "DatThg",
+  
+  AddButton(Tab1o, {
+     Name = "Teddy Hub Hop Sever Boss",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2Vn"))()
+	  repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
   end
   })
-  AddButton(Blox Fruits, {
+  
+  AddButton(Tab1o, {
+     Name = "Yiner Hub",
+    Callback = function()
+	  getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-Yiner/Yiner-Hub/refs/heads/main/main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Aurora Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora", true))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Min Hub",
+    Callback = function()
+	  getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinUp27Vn"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
      Name = "banana hub free",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/BananaCatHub/refs/heads/main/BananaCatHub.lua"))()
   end
   })
-  AddButton(Blox Fruits, {
-     Name = "BlueX hub",
+  
+  AddButton(Tab1o, {
+     Name = "Arceney Hub",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YuriMain", true))()
   end
   })
-  AddButton(Blox Fruits, {
-     Name = "Shinichi hub",
+  
+  AddButton(Tab1o, {
+     Name = "DatThg v2",
     Callback = function()
-      repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinsayhi/refs/heads/main/ShinichiHub.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2Vn"))()
   end
   })
-  AddButton(Blox Fruits, {
-     Name = "Yumiara hub",
+  
+  AddButton(Tab1o, {
+     Name = "quantun Hub",
     Callback = function()
-      loadstring(game.HttpGet(game,'https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/BloxFruit-XYZ.lua'))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
-  AddButton(Blox Fruits, {
-     Name = "HoangNguyenk8 hub",
+  
+  AddButton(Tab1o, {
+     Name = "Cokka Hub",
     Callback = function()
-      getgenv().Team = "Pirates"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/BF-Main.luau"))()
+	  loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
   end
   })
-  AddButton(Blox Fruits, {
-     Name = "Ong hub",
+  
+  AddButton(Tab1o, {
+     Name = "Nat Hub",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
   end
   })
-  AddButton(Blox Fruits, {
-     Name = "maru hub freee",
+  
+  AddButton(Tab1o, {
+     Name = "Yuri Hub",
     Callback = function()
-      getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()       
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YuriMain", true))()
   end
   })
-  local Blox Fruits = MakeTab({Name = "Grow a Garden"})
-  AddButton(Blox Fruits, {
-     Name = "nat hub",
+  
+  AddButton(Tab1o, {
+     Name = "BlueX Hub",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Nat hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "quantun Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "fam diamond",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/99-Nights-in-the-Forest-Farm-diamond-v2-50169"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Than Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Speed Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "Nat Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "LDT Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thohihi312-coder/ldt-hub/refs/heads/main/main.lua.txt"))()
   end
   })
