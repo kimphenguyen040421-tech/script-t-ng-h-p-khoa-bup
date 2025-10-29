@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "lâm coi sex hub",
-         Animation = "khoa bup ngu bú cu"
+         Title = "Script tổng hợp trùm bịp",
+         Animation = "Tiktok:Trùm Bịp"
          },
         Key = {
         KeySystem = false,
@@ -21,8 +21,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=105178433252947",
-       Size = {60, 60},
+       Image = "http://www.roblox.com/asset/?id=88441364693656",
+       Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Blox Fruits"})
      local Tab2o = MakeTab({Name = "Grow a Garden"})
      local Tab3o = MakeTab({Name = "99 day"})
+     local Tab4o = MakeTab({Name = "Hunter zombie"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -208,3 +209,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = "Speed Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Zee Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://zuwz.me/Ls-Zee-Hub-HZ"))()
+  end
+  })
+  
+  
