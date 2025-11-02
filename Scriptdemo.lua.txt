@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=105178433252947",
+       Image = "http://www.roblox.com/asset/?id=97238853332698",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -34,6 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Grow a Garden"})
      local Tab3o = MakeTab({Name = "99 day"})
      local Tab4o = MakeTab({Name = "Hunter zombie"})
+     local Tab5o = MakeTab({Name = "dead rails"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -221,6 +222,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
      Name = "Zee Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://zuwz.me/Ls-Zee-Hub-HZ"))()
+  end
+  })
+  
+    AddButton(Tab1o, {
+     Name = "W-azure Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Hung Hub Auto bond",
+    Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/HungHub/main/loader.lua'))()
   end
   })
   
